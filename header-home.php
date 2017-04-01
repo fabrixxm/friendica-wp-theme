@@ -42,6 +42,6 @@
             <!-- Banner -->
 			<section id="banner">
 				<h1><i class="fk-friendica-logo-char" aria-hidden="true"></i> <?php echo esc_html( get_bloginfo( 'name' ) ); ?></h1>
-				<p><php echo esc_html(get_bloginfo('description')); ?></p>
+				<p><?php echo esc_html(get_bloginfo('description')); ?></p>
                 <p><a href="https://github.com/friendica/friendica/releases" class="button special">Download</a> <a href="http://dir.friendica.social/servers" class="button">Try It</a></p>
 			</section>
