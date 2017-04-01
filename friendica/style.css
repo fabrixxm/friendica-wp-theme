@@ -1,0 +1,17 @@
+/*
+Theme Name: Friendica
+Theme URI: http://github.com/friendica/wordpress-theme
+Author: Friendica
+Author URI: http://friendica.com/
+Description: This is the theme for Friendica main site.<br>Based on https://templated.co/theory
+Version: 1.0.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: friendica
+
+*/
+
+@import url(./assets/css/font-awesome.min.css);
+@import url(./assets/css/friendica-logo.css);
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import url(./assets/css/main.css);

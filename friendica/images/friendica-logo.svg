@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="96"
+   height="96"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="friendica-logo.svg"
+   inkscape:export-filename="/Users/fabio/Documents/Progetti/varie/fspl/web/images/f.32.s.png"
+   inkscape:export-xdpi="30"
+   inkscape:export-ydpi="30">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="highlightgradient">
+      <stop
+         id="stop3833"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.74374998;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3829" />
+    </linearGradient>
+    <linearGradient
+       id="shadowgradient">
+      <stop
+         id="stop3833-5"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.5;" />
+      <stop
+         style="stop-color:#818080;stop-opacity:0;"
+         offset="1"
+         id="stop3829-9" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.1199999"
+     inkscape:cx="10.727269"
+     inkscape:cy="34.872518"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3997"
+     showgrid="true"
+     width="256px"
+     inkscape:snap-global="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1156"
+     inkscape:window-x="2114"
+     inkscape:window-y="109"
+     inkscape:window-maximized="0"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false"
+     inkscape:object-paths="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="3"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="2px"
+       spacingy="2px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="Lines as original logo"
+     id="g3997"
+     inkscape:groupmode="layer">
+    <rect
+       ry="14.720879"
+       rx="14.59952"
+       y="3.8373642"
+       x="4.2014427"
+       height="88.325272"
+       width="87.597115"
+       id="rect4001"
+       style="fill:none;stroke:#000000;stroke-width:3.66501832;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 18.800962,3.83737 c -8.203924,0.0396 -14.5995193,6.4884 -14.5995193,14.72088 0,0 0,38.18151 0,58.88351 0,8.391 6.3955953,14.7209 14.5995193,14.7209 l 14.599519,0 0,-23.9214 29.199039,0 -0.07663,-22.01847 -29.122407,0.15454 0,-18.61853 29.199039,0 0,-23.92143 c 0,0 -36.498798,0 -43.798558,0 z"
+       id="rect2993"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccccccccc" />
+  </g>
+</svg>
