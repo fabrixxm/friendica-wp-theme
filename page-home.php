@@ -115,4 +115,65 @@
                     </div>
                 </div>
             </section>
+
+            <hr>
+            <!-- Four -->
+            <?php
+            $args = array(
+                'post_type' => "post"
+            );
+            $the_query = new WP_Query( $args );
+            ?>
+
+            <section id="four" class="wrapper special">
+                <div class="inner">
+                    <header class="align-center">
+                        <h2>Last News</h2>
+                    </header>
+                    <div class="row">
+                        <!-- article 1 -->
+                        <?php
+                            if ($the_query->have_posts()) {
+                                $the_query->the_post();
+                                get_template_part( 'entry', 'home' );
+                            }
+                        ?>
+                        <div class="6u 12u$(medium)">
+                            <!-- article 2-5 -->
+                            <div class="row">
+                                <?php
+                                    if ($the_query->have_posts()) {
+                                        $the_query->the_post();
+                                        get_template_part( 'entry', 'home' );
+                                    }
+                                ?>
+
+                                <?php
+                                    if ($the_query->have_posts()) {
+                                        $the_query->the_post();
+                                        get_template_part( 'entry', 'home' );
+                                    }
+                                ?>
+                            </div>
+                            <hr>
+                            <div class="flex flex-2">
+                                <?php
+                                    if ($the_query->have_posts()) {
+                                        $the_query->the_post();
+                                        get_template_part( 'entry', 'home' );
+                                    }
+                                ?>
+
+                                <?php
+                                    if ($the_query->have_posts()) {
+                                        $the_query->the_post();
+                                        get_template_part( 'entry', 'home' );
+                                    }
+                                ?>
+                            </div>
+                        </div>
+                    <div>
+                </div>
+            </section>
+        <?php wp_reset_query(); ?>
 <?php get_footer(); ?>

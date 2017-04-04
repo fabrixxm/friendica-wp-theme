@@ -1773,6 +1773,10 @@
 
 /* Section/Article */
 
+    section.wrapper header p.entry-meta { font-size: 0.8em;}
+
+    section.entry-content img { max-width: 100%; height: auto!important; }
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -2849,12 +2853,14 @@
         position: absolute;
         background-color: #fff;
         border: 1px solid #5385c1;
-        top: 2.9em; 
+        border-top: 1px solid #fff;
+        top: 2.5em;
+        min-width: 100px;
     }
     #nav .sub-menu li { padding: 0; line-height: 2em; }
-    #nav .sub-menu a { color: #333; padding: 0.4em; }
+    #nav .sub-menu a { color: #333; padding: 0.4em; width: 100%; text-align: left; }
     #nav .sub-menu a:hover { color: #fff; background-color: #5385c1; }
-    
+
 	@media screen and (max-width: 980px) {
 
 		#nav {
@@ -3093,7 +3099,7 @@
 		}
 
 	}
-	
+
 /** widget search */
 .widget_search form > div { display: block; clear: both; height: auto; overflow: auto; }
 .widget_search form input[type="text"] {
