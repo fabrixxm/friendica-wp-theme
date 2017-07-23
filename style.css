@@ -13,5 +13,5 @@ Text Domain: friendica
 
 @import url(./assets/css/font-awesome.min.css);
 @import url(./assets/css/friendica-logo.css);
-@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import url(./assets/css/raleway.css);
 @import url(./assets/css/main.css);
