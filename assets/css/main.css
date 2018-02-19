@@ -2731,7 +2731,8 @@
 		}
 
 	#header {
-		color: rgba(255,255,255,0.8);;
+		color: rgba(255,255,255,0.8);
+		background-color: rgba(0,0,0,0.2);
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2775,7 +2776,7 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-size: 1em;
 		}
 
 			#header a:hover {
@@ -2981,7 +2982,6 @@
 			padding: 0;
 		}
 
-		
 
 
 			#banner h1 .fa-friendica {
