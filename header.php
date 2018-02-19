@@ -16,7 +16,7 @@
             <header id="header">
                 <div class="inner">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
-                        <i class="fk-friendica-logo-char" aria-hidden="true"></i> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
+                        <i class="fa fa-friendica" aria-hidden="true"></i> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
                     </a>
 
                     <nav id="nav">

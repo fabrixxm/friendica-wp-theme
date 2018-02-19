@@ -2762,9 +2762,9 @@
 			font-size: 1em;
 		}
 
-            #header .logo .fk-friendica-logo-char {
-                color: #FEBF19;
-            }
+			#header .logo .fa-friendica {
+				color: #FEBF19;
+			}
 
 		#header a {
 			-moz-transition: color 0.2s ease-in-out;
@@ -2983,12 +2983,13 @@
 
 		
 
-			#banner h1 .fk-friendica-logo-char {
-		                color: #FEBF19;
+
+			#banner h1 .fa-friendica {
+				color: #FEBF19;
 			}
 
 			#banner h1 span { position: relative; }
-			#banner .ribbon { 
+			#banner .ribbon {
 				position: absolute;
 				right: -100px; top: 0;
 				background-color: #d16103;
@@ -2999,7 +3000,7 @@
 				line-height: 1.2em;
 				transform: rotate(20deg);
 				font-size: 12pt;
-				border-radius: 100%; 
+				border-radius: 100%;
 				display: -webkit-box;
 				display: -moz-box;
 				display: -ms-flexbox;

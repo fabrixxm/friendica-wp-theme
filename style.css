@@ -11,7 +11,6 @@ Text Domain: friendica
 
 */
 
-@import url(./assets/css/font-awesome.min.css);
-@import url(./assets/css/friendica-logo.css);
+@import url(./assets/css/fork-awesome.min.css);
 @import url(./assets/css/raleway.css);
 @import url(./assets/css/main.css);
