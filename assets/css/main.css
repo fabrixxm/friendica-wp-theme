@@ -3135,3 +3135,27 @@
 .widget_search form input[type="submit"] {
     display: inline-block; width: 30%; float: right;
 }
+
+/** sticky post in blog list */
+.blog article.post.sticky::after {
+    display: block;
+    position: absolute;
+    content: "!";
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: #d16103;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100%;
+    right: 0.1em;
+    top: 0.1em;
+    transform: rotate(25deg);
+}
+.blog article.post.sticky {
+    background-color: #fff3e9;
+    padding: 0.5em;
+    position: relative;
+}
